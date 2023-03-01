@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "isolatedModules": true,
-    "baseUrl": "src"
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "target": "esNext"
   }
 }

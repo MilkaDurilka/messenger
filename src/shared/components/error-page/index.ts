@@ -1,6 +1,6 @@
 import { registerPartial } from "../../utils/register-partial";
 
-import template from "./button.hbs";
+import template from "./template.hbs";
 import * as style from "./style.module.scss";
 
-registerPartial({ name: "button", template, style });
+registerPartial({ name: "errorPage", template, style });
